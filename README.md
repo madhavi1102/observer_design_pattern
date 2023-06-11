@@ -1,1 +1,2 @@
-# observer_desgin_pattern
+Behavioral Design Patttern -> Observer Pattern
+
