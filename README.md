@@ -30,6 +30,6 @@ Python provides an easy and efficient way to implement observer design pattern b
 
 Future Improvement:
 
-This approach holds strong reference of subscriber objects to pthe subject which can cause memory leak and is not suitable for large scale web applications. Observers and  subjects should be decoupled, means totally unaware of each other. This can be acheived though Message Queue which acts as middle layer  broker to  publishers and subscribers. Whenever a message is pushed to message queue 's topic, immediately all the associated subscribers are notified.
+This approach holds strong reference of subscriber objects to the subject which can cause memory leak and is not suitable for large scale web applications. Observers and  subjects should be decoupled, means totally unaware of each other. This can be acheived though Message Queue which acts as middle layer  broker to  publishers and subscribers. Whenever a message is pushed to message queue 's topic, immediately all the associated subscribers are notified.
 
 
