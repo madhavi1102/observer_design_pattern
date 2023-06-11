@@ -4,7 +4,7 @@ Observer Pattern is a behavioral design pattern in which an object notifes to al
 This repo contains illustration of event-driven programming in simple python scripts using observer pattern.
 
 The Event driven applications we see in most of the real world applications. Event simply refers to any change in state.      For example 
-- Many users when subscribed to a newsletter, get a notification over mail or any other service whenever the author of the blog update a post or add a new post. 
+- Many users when subscribed to a newsletter, get a notification over mail or any other service whenever the author of the blog updates a post or adds a new post. 
 - A user when completes a payment. The bill is received to its message or mail account.
 
 By Definition in Wikipedia:
