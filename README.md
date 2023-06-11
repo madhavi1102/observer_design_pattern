@@ -27,3 +27,9 @@ Python provides an easy and efficient way to implement observer design pattern b
 3. A publisher manages multiple events and different subscribers are registered to different events. For an event, publisher sends out notification to only event registered subscribers.
 4. Subscribers are not necessary to know about the publisher, however, publisher can send information about itself and event to subscriber.
 
+
+Future Immprovement:
+
+This approach holds strong reference of subscriber objects to pthe subject which can cause memory leak and is not suitable for large scale web applications. Observers and  subjects should be decoupled, means totally unaware of each other. This can be acheived though Message Queue which acts as middle layer  broker to  publishers and subscribers. Whenever a message is pushed to message queue 's topic, immediately all the associated subscribers are notified.
+
+
